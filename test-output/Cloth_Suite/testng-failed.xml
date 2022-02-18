@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cloth_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Cloth_Test(failed)">
+    <groups>
+      <run>
+        <include name="sampleTest"/>
+        <exclude name="0chktest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.TestAdactIn.TestNgRunner">
+        <methods>
+          <include name="logIn"/>
+          <include name="AddToCart"/>
+          <include name="womens"/>
+          <include name="sign"/>
+          <include name="quickview"/>
+          <include name="webBrowser"/>
+        </methods>
+      </class> <!-- com.TestAdactIn.TestNgRunner -->
+    </classes>
+  </test> <!-- Cloth_Test(failed) -->
+</suite> <!-- Failed suite [Cloth_Suite] -->

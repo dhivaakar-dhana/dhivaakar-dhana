@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-12T19:10:32 IST" name="Cloth_Suite" finished-at="2022-02-12T19:11:10 IST" duration-ms="37251">
+    <groups>
+      <group name="sampleTest">
+        <method signature="TestNgRunner.AddToCart()[pri:4, instance:com.TestAdactIn.TestNgRunner@55b7a4e0]" name="AddToCart" class="com.TestAdactIn.TestNgRunner"/>
+        <method signature="TestNgRunner.logIn()[pri:1, instance:com.TestAdactIn.TestNgRunner@55b7a4e0]" name="logIn" class="com.TestAdactIn.TestNgRunner"/>
+        <method signature="TestNgRunner.quickview()[pri:3, instance:com.TestAdactIn.TestNgRunner@55b7a4e0]" name="quickview" class="com.TestAdactIn.TestNgRunner"/>
+        <method signature="TestNgRunner.sign()[pri:0, instance:com.TestAdactIn.TestNgRunner@55b7a4e0]" name="sign" class="com.TestAdactIn.TestNgRunner"/>
+        <method signature="TestNgRunner.womens()[pri:2, instance:com.TestAdactIn.TestNgRunner@55b7a4e0]" name="womens" class="com.TestAdactIn.TestNgRunner"/>
+      </group> <!-- sampleTest -->
+    </groups>
+    <test started-at="2022-02-12T19:10:32 IST" name="Cloth_Test" finished-at="2022-02-12T19:11:10 IST" duration-ms="37251">
+      <class name="com.TestAdactIn.TestNgRunner">
+        <test-method is-config="true" signature="webBrowser()[pri:0, instance:com.TestAdactIn.TestNgRunner@55b7a4e0]" started-at="2022-02-12T19:10:32 IST" name="webBrowser" finished-at="2022-02-12T19:10:43 IST" duration-ms="10350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webBrowser -->
+        <test-method signature="sign()[pri:0, instance:com.TestAdactIn.TestNgRunner@55b7a4e0]" started-at="2022-02-12T19:10:43 IST" name="sign" finished-at="2022-02-12T19:10:45 IST" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method signature="logIn()[pri:1, instance:com.TestAdactIn.TestNgRunner@55b7a4e0]" started-at="2022-02-12T19:10:45 IST" name="logIn" finished-at="2022-02-12T19:10:47 IST" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="womens()[pri:2, instance:com.TestAdactIn.TestNgRunner@55b7a4e0]" started-at="2022-02-12T19:10:47 IST" name="womens" finished-at="2022-02-12T19:10:52 IST" duration-ms="4726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- womens -->
+        <test-method signature="quickview()[pri:3, instance:com.TestAdactIn.TestNgRunner@55b7a4e0]" started-at="2022-02-12T19:10:52 IST" name="quickview" finished-at="2022-02-12T19:10:52 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickview -->
+        <test-method signature="AddToCart()[pri:4, instance:com.TestAdactIn.TestNgRunner@55b7a4e0]" started-at="2022-02-12T19:10:52 IST" name="AddToCart" finished-at="2022-02-12T19:11:10 IST" duration-ms="17350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+      </class> <!-- com.TestAdactIn.TestNgRunner -->
+    </test> <!-- Cloth_Test -->
+  </suite> <!-- Cloth_Suite -->
+</testng-results>
